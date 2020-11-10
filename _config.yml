@@ -1,4 +1,4 @@
-title: 'kentbayron.github.io'
+title: 'Kent Bayron'
 description: "Tech Blog"
 baseurl: "/"
 url: "https://kentbayron.github.io"
@@ -14,4 +14,6 @@ footer: 'follow me on <a href="https://twitter.com/bayronkentoy">twitter</a>'
 
 # Build settings
 markdown: kramdown
-remote_theme: b2a3e8/jekyll-theme-console
+theme: jekyll-theme-console
+# remote_theme: b2a3e8/jekyll-theme-console
+
