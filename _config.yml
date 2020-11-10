@@ -11,9 +11,9 @@ header_pages:
 style: hacker
 
 footer: 'follow me on <a href="https://twitter.com/bayronkentoy">twitter</a>'
+google_analytics: G-RTCZ8Q61PV
 
 # Build settings
 markdown: kramdown
-# theme: jekyll-theme-console
 remote_theme: b2a3e8/jekyll-theme-console
 
