@@ -1,0 +1,17 @@
+title: 'kentbayron.github.io'
+description: "Tech Blog"
+baseurl: "/"
+url: "https://kentbayron.github.io"
+
+header_pages:
+  - index.md
+  - projects.md
+  - about.md
+
+style: hacker
+
+footer: 'follow me on <a href="https://twitter.com/bayronkentoy">twitter</a>'
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-console
