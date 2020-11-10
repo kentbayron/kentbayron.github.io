@@ -1,5 +1,5 @@
 ---
-title: Kent Bayron
+title: /home
 layout: home
 permalink: /
 ---
