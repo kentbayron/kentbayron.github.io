@@ -2,11 +2,12 @@
 title: Blind SSRF due to Sentry Misconfiguration
 layout: post
 date: 2019-11-14
-category: blog
+category: write-up
 ---
 
 # Summary:
 
+Hello Guys, this is my second time to write a blog and I want to say sorry ahead for my bad english. 😅<br>
 When setting up **Sentry** you should turn off **Scrap Source Code**. If it is turned on, then the site using **Sentry** will make blind GET requests everywhere controlled from outside via error reporting. During my reconnaissance phase, I found out that the site is using **Sentry** for error reporting and monitoring, refering to this [Hackerone Report](https://hackerone.com/reports/374737). The researcher stated that if the **Scrap Source Code** is turned on, then the **filename** parameter will be vulnerable to Blind SSRF. I tested the parameter and luckily I got callback on my localhost from [redacted.com](https://redacted.com)
 
 # Proof of Concept
